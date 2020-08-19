@@ -120,11 +120,14 @@ if bool(ENV):
        
     # OWNER ID
     OWNER_ID = os.environ.get("OWNER_ID", "719195224")
+
+    # Handler
+    TELE_HNDLR = os.environ.get("CMD_HANDLER", None)
+
    
     # Last.fm Module
     BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
     DEFAULT_BIO = os.environ.get("DEFAULT_BIO", None)
-
     LASTFM_API = os.environ.get("LASTFM_API", None)
     LASTFM_SECRET = os.environ.get("LASTFM_SECRET", None)
     LASTFM_USERNAME = os.environ.get("LASTFM_USERNAME", None)
