@@ -5,6 +5,7 @@ from var import Var
 from userbot.utils import load_module
 from pathlib import Path
 import telethon.utils
+from .storage import Storage
 
 async def add_bot(bot_token):
     await bot.start(bot_token)
